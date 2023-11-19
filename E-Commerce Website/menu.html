@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breads & bowl</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header section starts -->
+
+   <header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-pizza-slice"></i> Breads & Bowl</a>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+    </div>
+
+    <div class="shopping-cart">
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/cart-1.png" alt="">
+            <div class="content">
+                <h3>pizza</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">₹ 255</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/cart-2.png" alt="">
+            <div class="content">
+                <h3>pizza</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">₹ 185</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="images/cart-3.png" alt="">
+            <div class="content">
+                <h3>pizza</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">₹ 275</span>
+            </div>
+        </div>
+        <h3 class="total">total: ₹ 715</h3>
+        <a href="#" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login" class="btn">
+    </form>
+   
+</header>
+
+    <!-- header section ends -->
+
+    <div class="heading">
+        <h1>our menu</h1>
+        <p><a href="home.html">home>>></a> menu</p>
+    </div>
+
+    <!-- menu section starts -->
+
+    <section class="menu">
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pizza</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Blazing Onion & Paprika</h3>
+                                <p>Hot & spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce. </p>
+                            </div>
+                            <div class="price">329</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Veg Extravaganza</h3>
+                                <p>Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese</p>
+                            </div>
+                            <div class="price">549</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Primavera Gourmet Pizza</h3>
+                                <p>For the veggie gourmet lovers. Succulent zucchini, fresh red & yellow bellpeppers and grilled mushrooms is here.</p>
+                            </div>
+                            <div class="price">699</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Fiery Sausage & Paprika</h3>
+                                <p>Spiciest non veg pizza with spicy & herby chicken sausage and red paprika toppings on a new spicy peri peri sauce base.</p>
+                            </div>
+                            <div class="price">699</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Chicken & Paprika</h3>
+                                <p>Hot & spicy chicken pizza with a combination of chicken keema & red paprika toppings and a new spicy peri peri sauce.</p>
+                            </div>
+                            <div class="price">449</div>
+                        </div>
+
+                        <div class="box" data-name="pizza">
+                            <div class="info">
+                                <h3>Smoked Chicken Gourmet Pizza</h3>
+                                <p>An irresistible combination of our juicy rashers with black olives, red & yellow bell peppers and pesto drizzle!</p>
+                            </div>
+                            <div class="price">849</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">pasta</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Wild Mushroom Penne Pasta</h3>
+                                <p>mushroom cream sauce with sun-dried tomatoes, button mushrooms & parmesan.</p>
+                            </div>
+                            <div class="price">428</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Classic Mac & Cheese</h3>
+                                <p>a creamy combination of tender macaroni & saucy cheddar cheese. Served with home-baked focaccia.</p>
+                            </div>
+                            <div class="price">390</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Fettuccine Aglio Olio Pasta</h3>
+                                <p>with garlic, extra virgin olive oil, sun-dried tomatoes, black olives, bell pepper & chilli flakes.</p>
+                            </div>
+                            <div class="price">378</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Baked Non Veg Alfredo Pasta</h3>
+                                <p>Baked with spinach in creamy white garlic sauce and cheese.</p>
+                            </div>
+                            <div class="price">350</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Penne Arrabbiata Pasta</h3>
+                                <p>spicy tomato sauce with grilled chicken, olives & torn basil</p>
+                            </div>
+                            <div class="price">455</div>
+                        </div>
+
+                        <div class="box" data-name="pasta">
+                            <div class="info">
+                                <h3>Non Veg Penne Boscaiola Pasta</h3>
+                                <p>Chicken penne pasta cooked with fresh cream sauce ortomato sauce parmesan cheese and garlic bread.</p>
+                            </div>
+                            <div class="price">499</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+
+                    <h3 class="title">dessert</h3>
+
+                    <div class="box-container">
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>choco lava</h3>
+                                <p>small muffin infused with warm chocolate. Vintage Dessert!</p>
+                            </div>
+                            <div class="price">109</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Biscoff Cupcakes</h3>
+                                <p>A classic Vanilla cupcake frosted with silky Lotus Biscoff butter cream and topped with Lotus Biscoff cookie crumb.</p>
+                            </div>
+                            <div class="price">150</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Mocha Tart</h3>
+                                <p>A buttery shortcrust pastry filled with a coffee mousse and topped with a silky dark chocolate ganache. </p>
+                            </div>
+                            <div class="price">120</div>
+                        </div>
+
+                        <div class="box" data-name="sweet">
+                            <div class="info">
+                                <h3>Chocolate Truffle Cupcakes</h3>
+                                <p>Chocolate cupcake topped off with a chocolate buttercream that will leave you wanting more!</p>
+                            </div>
+                            <div class="price">144</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+
+    <!-- menu preview section starts -->
+
+    <section class="menu-preview-container">
+
+        <div id="close" class="fas fa-times"></div>
+
+        <div class="menu-preview" data-target="pizza">
+            <h3>Blazing Onion & Paprika</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Hot & spicy pizza with onion & red paprika toppings and a new spicy peri peri sauce.</p>
+            <div class="price">329</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="pasta">
+            <h3>Wild Mushroom Penne Pasta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>mushroom cream sauce with sun-dried tomatoes, button mushrooms & parmesan.</p>
+            <div class="price">428</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="menu-preview" data-target="sweet">
+            <h3>choco lava</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>small muffin infused with warm chocolate. Vintage Dessert!</p>
+            <div class="price">109</div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </section>
+
+    <!-- menu preview section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>For any kind of information or querries, feel free to contact us through any of the following.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>9632087512</p>
+                <a href="#" class="link"> breadsandbowl@gmail.com </a>
+            </div>
+
+            <div class="box">
+                <h3>location</h3>
+                <p>872/a, 80 Feet Rd <br>
+                    Indiranagar
+                    Bengaluru 560038</p>
+            </div>
+
+        </div>
+        <div class="credit"> all rights reserved!</div>
+
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <!-- custom js link -->
+   <script src="script.js"></script>
+    
+</body>
+</html>
